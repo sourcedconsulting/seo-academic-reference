@@ -42,6 +42,14 @@ Free lead-gen audit for tradie businesses → [Get in touch](https://sourcedcons
 
 ---
 
+## Download
+
+- 📄 [PDF (63 pages)](seo-academic-reference-guide-clean.pdf)
+- 🌐 [GitHub Pages](https://sourcedconsulting.github.io/seo-academic-reference/) — online reader
+- 📦 [GitHub Repo](https://github.com/sourcedconsulting/seo-academic-reference) — star ⭐, fork, contribute
+
+---
+
 ## License
 
 Educational & commercial use permitted — share freely.  
