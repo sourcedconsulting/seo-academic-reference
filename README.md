@@ -1,23 +1,48 @@
-# Academic SEO Reference Guide
-
-A curated academic reference guide covering **50 SEO Quick Wins** — strategies, principles, and tactics distilled from peer-reviewed research and industry benchmarks.
-
-[![PDF](https://img.shields.io/badge/PDF-Available-blue?logo=adobeacrobatreader)](seo-academic-reference-guide.pdf)
-
-## What's Inside
-
-- Core SEO fundamentals grounded in research
-- On-page, technical, and content optimisation tactics
-- Structured to serve as a quick-reference desk guide
-
-## About the Publisher
-
-This guide is republished by **[Sourced Consulting](https://sourcedconsulting.com.au)** — Brisbane-based lead generation specialists for Australian tradies. We convert web traffic into booked jobs through our **Sourced & Booked** system.
-
-Our focus: high-intent search → qualified leads → booked work, delivered through data-backed SEO and smart conversion architecture.
-
-> Originally authored as an industry reference, the document has been re-branded to remove third-party vendor references. All content remains unchanged.
+# SOURCED CONSULTING
+sourcedconsulting.com.au
 
 ---
 
-© Sourced Consulting · sourcedconsulting.com.au
+# 50 SEO Quick Wins
+### An Academic Reference Guide
+
+*Stripped of third-party branding — republished by Sourced Consulting*
+
+---
+
+## What's Inside
+
+50 SEO tactics distilled and referenced across 63 pages:
+
+- Technical SEO Foundations
+- Keyword Research & Mapping
+- On-Page Optimisation
+- Content Strategy
+- Link Building
+- Local & Voice SEO
+- Analytics & Measurement
+- *(50 wins total across all 8 service areas)*
+
+---
+
+## Who This Is For
+
+- **Small business owners** — practical SEO steps without the jargon  
+- **Content creators** — content-first approaches that align with search intent  
+- **Marketing students** — structured academic reference material  
+- **Freelancers & agency staff** — a fast checklist you can share with clients  
+
+---
+
+## Author
+
+Published by **Sourced Consulting** — lead generation for Australian tradies.  
+Website: [https://sourcedconsulting.com.au](https://sourcedconsulting.com.au)  
+Free lead-gen audit for tradie businesses → [Get in touch](https://sourcedconsulting.com.au)
+
+---
+
+## License
+
+Educational & commercial use permitted — share freely.  
+Attribution appreciated but not required.

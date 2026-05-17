@@ -1,0 +1,43 @@
+name: PDF Validation
+
+on:
+  push:
+    paths:
+      - '**/*.pdf'
+  pull_request:
+    paths:
+      - '**/*.pdf'
+
+jobs:
+  validate-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pdfminer.six pypdf
+
+      - name: PDF text-extraction check
+        run: |
+          import sys
+          from pdfminer.high_level import extract_text
+          import glob
+          banned = ["SEO Wire", "t.me", "seowire", "seo_wire"]
+          failed = False
+          for pdf_path in glob.glob("**/*.pdf", recursive=True):
+              text = extract_text(pdf_path)
+              chars = len(text.strip())
+              hits = [b for b in banned if b.lower() in text.lower()]
+              print(f"{pdf_path}: {chars:,} chars | banned={hits}")
+              if chars < 100:
+                  print("  FAIL: near-empty PDF"); failed = True
+              if hits:
+                  print(f"  FAIL: banned terms detected"); failed = True
+          sys.exit(1 if failed else 0)
+        shell: python
